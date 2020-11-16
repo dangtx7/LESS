@@ -6,4 +6,16 @@ h1 {
 }
 p {
   color: green;
+  font-size: 35px;
+}
+ol {
+  background-color: pink;
+  border: 1px solid red;
+  padding: 10px 25px;
+}
+ol li {
+  color: purple;
+  font-size: 18px;
+  border: 1px solid black;
+  margin: 5px;
 }
