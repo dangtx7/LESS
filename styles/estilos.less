@@ -37,3 +37,20 @@ ol{
 
 }
 
+//Mixins o Funciones con LESS
+.bordes{
+    color: black;
+    border-top: 2px dashed brown;
+    border-bottom: 2px dashed brown; 
+    background-color: green;
+    padding: 0px;
+}
+
+div{
+    .bordes();
+    color: red;
+    margin: 50px 0px;
+    padding: 0px 25px;
+}
+
+
